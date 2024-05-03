@@ -1,0 +1,74 @@
+.login-container {
+  height: 100vh;
+  background-color: #093545;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff;
+
+  .login-form {
+    margin: auto auto;
+    width: 332px;
+
+    .form-title {
+      font-size: 4rem;
+      margin-bottom: 2.4rem;
+    }
+
+    .form-description {
+      margin-bottom: 2.25rem;
+    }
+
+    .login-input {
+      width: 100%;
+      height: 2.8rem;
+      padding: 0 1rem;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+    }
+
+    .password-container {
+      position: relative;
+
+      .toggle-icon {
+        padding: 12.5px;
+        position: absolute;
+        right: 0;
+        color: #000000;
+        cursor: pointer;
+      }
+    }
+
+    .login-options {
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+
+      .remember-container {
+        display: flex;
+
+        .remember-button {
+          width: 16px;
+          height: 16px;
+          accent-color: #20df7f;
+          margin-right: 7px;
+          background: #224957;
+        }
+      }
+
+      .forgot-password {
+        text-decoration: none;
+        color: #20df7f;
+      }
+    }
+
+    .login-button {
+      width: 100%;
+      height: 2.8rem;
+      margin-bottom: 2rem;
+      padding: 0 1rem;
+      border-radius: 10px;
+      background-color: #20df7f;
+    }
+  }
+}
